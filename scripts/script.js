@@ -1,5 +1,5 @@
 let checklist = document.querySelectorAll(".richtlijnen input[type=checkbox]");
-let progression = document.querySelector("#waarneembaar-progress");
+let progression = document.querySelector("#waarneembaar-meter");
 console.log(checklist.length);
 
 checklist.forEach(function (checkbox) {
