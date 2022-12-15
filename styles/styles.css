@@ -15,7 +15,7 @@
   --white: #fff;
 
   --nav-color: #fff;
-  --header-color: #fb9f89;
+  --header-color: #B9005F;
   --body-color: #eeeeee;
 }
 
@@ -159,6 +159,7 @@ li {
 
   .title {
     font-size: 2em;
+    color: #96d4d4;
   }
 
   ul {
