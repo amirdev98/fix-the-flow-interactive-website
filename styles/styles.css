@@ -257,6 +257,11 @@ footer {
 .undisplay-vragen-formulier {
   z-index: -1;
 }
+#waarneembaar-meter::-webkit-meter-bar{
+transition: ease 0.5s;
+
+
+}
 
 .display-vragen-formulier:hover {
   border: 1px solid var(--licht-grijs);
@@ -293,7 +298,7 @@ input[type=submit]:hover {
 .vragen-formulier {
   transition: transform 0.5s ease-out;
   background-color: var(--wit);
-  transform: translateX(200%);
+  transform: translateX(500%);
   border-radius: 5px;
   max-width: 20rem;
   padding: 20px;
